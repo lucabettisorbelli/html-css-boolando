@@ -35,8 +35,8 @@ header {
     height: 35px;
 }
 
-.h100 {
-    height: 100%;
+.h80 {
+    height: 90%;
 }
 
 a {
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .size {
-    height: 645px;
+    height: 715px;
     width: 31%;
 }
 
