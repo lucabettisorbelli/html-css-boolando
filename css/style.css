@@ -88,3 +88,23 @@ a:hover {
     margin-top: 105px;
     justify-content: space-between;
 }
+
+footer {
+    background-color: #1a1a1a;
+}
+
+.contFooter {
+    height: 110px;
+    margin-top: 50px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footleft {
+    flex-direction: column;
+}
+
+.footright {
+    flex-direction: column;
+}
