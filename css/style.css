@@ -58,6 +58,66 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.discount {
+    position: absolute;
+    color: white;
+    padding: 7px;
+}
+
+.red {
+    background-color: red;
+    bottom: 20%;
+}
+
+.green {
+    background-color: green;
+    left: 15%;
+    bottom: 20%;
+}
+
+.positionRe {
+    position: relative;
+}
+
+.boxtop:hover .heart {
+    display: block;
+  }
+ 
+  .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.hidden {
+    display: none;
+}
+
+
+img:first-child:hover + img.hidden {
+    display: block;
+    z-index: 1;
+} 
+    
+
+.heart {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 30px;
+    color: red;
+    font-size: 25px;
+    display: none;
+}
+
+#greenlogo {
+    position: absolute;
+    bottom: 20%;
+    padding: 7px;
+    background-color: green;
+    color: white;
+}
+
 .Bigboxtop {
     padding-top: 50px;
     justify-content: space-between;
