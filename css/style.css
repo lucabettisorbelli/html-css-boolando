@@ -45,19 +45,46 @@ a {
     padding-right: 5px;
 }
 
-.central {
-    margin: 0 20px;
-}
-
 a:hover {
     color: blueviolet;
 }
 
 .size {
     height: 645px;
-    width: 445px;
+    width: 31%;
+}
+
+.contMain {
+    flex-wrap: wrap;
 }
 
 .Bigboxtop {
     padding-top: 50px;
+    justify-content: space-between;
+    
+}
+
+.descriptionTop {
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.fs-text {
+    font-family: bold;
+    font-size: 25px;
+}
+
+.col-text {
+    color: red;
+    display: flex;
+    padding-right: 5px;
+}
+
+.oldprice {
+    text-decoration: line-through;
+}
+
+.Bigboxbottom {
+    margin-top: 105px;
+    justify-content: space-between;
 }
