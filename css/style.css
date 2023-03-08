@@ -1,0 +1,50 @@
+body {
+    width: 1920px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boxed {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.flexed {
+    display: flex;
+}
+
+.contHeader {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header {
+    height: 70px;
+    background-color: #ff6900;
+}
+
+.contHeader img {
+    width: 140px;
+    height: 35px;
+}
+
+.logoHead {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: blueviolet;
+}
