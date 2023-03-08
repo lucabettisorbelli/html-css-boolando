@@ -35,10 +35,6 @@ header {
     height: 35px;
 }
 
-.logoHead {
-    
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -47,4 +43,13 @@ a {
 
 a:hover {
     color: blueviolet;
+}
+
+.size {
+    height: 645px;
+    width: 445px;
+}
+
+.Bigboxtop {
+    padding-top: 50px;
 }
