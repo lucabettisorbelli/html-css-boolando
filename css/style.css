@@ -10,13 +10,6 @@ body {
 }
 
 
-header {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-}
-
 .boxed {
     max-width: 1380px;
     margin: 0 auto;
@@ -36,6 +29,10 @@ header {
 header {
     height: 70px;
     background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .contHeader img {
@@ -91,13 +88,31 @@ a:hover {
     position: relative;
 }
 
+.absolute {
+    position: absolute;
+}
+
+.Imgcont {
+    display: block;
+    width: 446px;
+}
+
+.firstImg {
+    z-index: 1;
+    height: 100%;
+}
+
+.firstImg:hover {
+    opacity: 0.2;
+}
+
+.secondImg{
+    height: 100%;
+}
+
  .boxtop:hover .heart {
    display: block;
    color: red;
- }
-
- .boxtop > img {
-    opacity: 1.5;
  }
 
 .heart {
@@ -167,4 +182,8 @@ footer {
 
 .footright {
     flex-direction: column;
+}
+
+#infofoot span {
+    padding-right: 20px;
 }
