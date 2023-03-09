@@ -9,6 +9,14 @@ body {
     padding: 0;
 }
 
+
+header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .boxed {
     max-width: 1380px;
     margin: 0 auto;
@@ -37,6 +45,10 @@ header {
 
 .h80 {
     height: 90%;
+}
+
+main {
+    margin-top: 50px;
 }
 
 a {
@@ -79,35 +91,22 @@ a:hover {
     position: relative;
 }
 
-.boxtop:hover .heart {
-    display: block;
-  }
- 
-  .absolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+ .boxtop:hover .heart {
+   display: block;
+   color: red;
+ }
 
-.hidden {
-    display: none;
-}
-
-
-img:first-child:hover + img.hidden {
-    display: block;
-    z-index: 1;
-} 
-    
+ .boxtop > img {
+    opacity: 1.5;
+ }
 
 .heart {
     position: absolute;
     top: 0px;
     right: 0px;
     padding: 30px;
-    color: red;
+    color: black;
     font-size: 25px;
-    display: none;
 }
 
 #greenlogo {
@@ -151,6 +150,7 @@ img:first-child:hover + img.hidden {
 
 footer {
     background-color: #1a1a1a;
+    
 }
 
 .contFooter {
