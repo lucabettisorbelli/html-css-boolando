@@ -33,6 +33,7 @@ header {
     top: 0;
     bottom: 0;
     width: 1920px;
+    z-index: 1;
 }
 
 .contHeader img {
