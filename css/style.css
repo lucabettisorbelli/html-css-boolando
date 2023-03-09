@@ -126,6 +126,7 @@ a:hover {
     padding: 30px;
     color: black;
     font-size: 25px;
+    z-index: 1;
 }
 
 #greenlogo {
