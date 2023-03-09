@@ -48,6 +48,14 @@ main {
     margin-top: 50px;
 }
 
+.positionRe {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -76,21 +84,16 @@ a:hover {
 .red {
     background-color: red;
     bottom: 20%;
+    z-index: 1;
 }
 
 .green {
     background-color: green;
     left: 15%;
     bottom: 20%;
+    z-index: 1;
 }
 
-.positionRe {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
-}
 
 .Imgcont {
     display: block;
